@@ -1,0 +1,59 @@
+
+.percentage100{
+    background-color:rgb(32, 11, 136);
+    display: block;
+    flex-grow: 2;
+    flex-direction: row;
+    width: 100%;
+    height: 30px;
+}
+
+.percentage90{
+    background-color:rgb(32, 11, 136);
+    display: block;
+    flex-grow: 2;
+    flex-direction: row;
+    align-items: right;
+    max-width: 90%;
+    height: 30px;
+}
+
+.percentage85{
+    background-color:rgb(32, 11, 136);
+    display: block;
+    flex-grow: 2;
+    flex-direction: row;
+    align-items: right;
+    max-width: 85%;
+    height: 30px;
+}
+
+.percentage75{
+    background-color:rgb(32, 11, 136);
+    display: block;
+    flex-grow: 2;
+    flex-direction: row;
+    align-items: right;
+    max-width: 75%;
+    height: 30px;
+}
+
+.percentage65{
+    background-color:rgb(32, 11, 136);
+    display: block;
+    flex-grow: 2;
+    flex-direction: row;
+    align-items: right;
+    max-width: 65%;
+    height: 30px;
+}
+
+.percentage50{
+    background-color:rgb(32, 11, 136);
+    display: block;
+    flex-grow: 2;
+    flex-direction: row;
+    align-items: right;
+    max-width: 50%;
+    height: 30px;
+}

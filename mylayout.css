@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: right;
+    flex-wrap: wrap;
+    grid-area: nav;
+}
+.space{
+    margin-top: 1%;
+    padding: 5px;
+    background-color: rgb(11, 9, 183);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 100%;
+    align-content: center;
+    grid-area: spacer;
+}
+
+.content-about{
+    margin-top: 1%;
+    /* background-color: rgba(11, 7, 219); */
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    grid-area: about;
+}
+
+.content-about2{
+    margin-top: 1%;
+    /* background-color: rgb(169, 168, 88); */
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0px;
+    flex-grow: 2;
+    grid-area: about;
+}
+
+.foot{
+    margin-top: 1%;
+    /* background-color: red; */
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    grid-area: foot;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    /* background-color: orangered; */
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: left;
+    align-content: left;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 0px;
+    row-gap: 0px;
+    grid-template-areas: "nav . "
+                        "spacer . "
+                        "about . "
+                        "spacer . "
+                        "about . "
+                        "foot . ";
+}
+
+@media screen and (max-width: 600px)
+{
+    .container{
+        grid-template-columns: 200px 1fr 100px;
+        grid-template-areas:"nav  main main"
+                            "main main side"
+                            "side foot side";
+    }
+}

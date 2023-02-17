@@ -1,0 +1,59 @@
+.logo{
+    width: 200px;
+    height: 30px;
+}
+
+.title-text{
+    padding-left: 10px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: auto;
+}
+.displayPhoto{
+    padding: 10px;
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.skillPhoto{
+    padding: 10px;
+    width: 50px;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+
+.mycontent1 {
+    width: 100%;
+    flex-grow: 2;
+    flex-direction: row;
+    margin: 10px;
+   }
+
+.mycontent2 {
+    margin: 1%;
+    padding-right: 1%;
+    width: auto;
+    flex-grow: 1;
+    display:flex;
+    margin: 5px;
+    align-items: center;
+   }
+
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+li:hover{
+    background-color: rgb(30, 8, 125);
+    color: aliceblue;
+}
